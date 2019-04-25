@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import { COLORS } from 'constants/styles';
+import { COLORS } from '../../constants/styles';
 import { TouchableWithoutFeedback } from 'react-native';
 const NETFLIX_LOGO = require('../../../assets/icons/netflix-logo.png');
 

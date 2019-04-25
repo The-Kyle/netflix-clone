@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import styled from 'styled-components/native';
-import Header from 'components/common/header';
-import { COLORS } from 'constants/styles';
+import styled from 'styled-components';
+import Header from '../common/header';
+import { COLORS } from '../../constants/styles';
 import { TouchableWithoutFeedback, ScrollView, TouchableOpacity } from 'react-native';
-import ShowData from 'data/data';
+import ShowData from '../../data/data';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 const Container = styled.View`
@@ -175,7 +175,7 @@ class HomeScreen extends Component {
         </ScrollView>
         <SubHeader>
           <SubHeaderTitleText>
-            {'Continue Watching for JM'}
+            {'Continue Watching for You'}
           </SubHeaderTitleText>
           <AllContainer>
             <AllText>{'All'}</AllText>

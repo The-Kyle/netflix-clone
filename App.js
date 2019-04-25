@@ -1,9 +1,9 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
 import { DrawerNavigator, DrawerItems } from 'react-navigation';
-import HomeStackNavigator from 'components/navigation/home-stack-navigator';
-import { COLORS } from 'constants/styles';
-import styled from 'styled-components/native';
+import HomeStackNavigator from './src/components/navigation/home-stack-navigator';
+import { COLORS } from './src/constants/styles';
+import styled from 'styled-components';
 
 const DrawerContainer = styled.View`
   flex: 1;
